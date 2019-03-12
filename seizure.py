@@ -67,8 +67,8 @@ def animate(i):
 
 
 def twilio(names,up, lat, lon):
-    account_sid = 'AC8d1b43a2cd30c1487647a484d7b1c3c3'
-    auth_token = 'fb721fcbecf089721dc7e075a7b3cbee'
+    account_sid = 'account_sid'
+    auth_token = 'auth_token'
     client = Client(account_sid, auth_token)
 
     message = client.messages \
